@@ -1,0 +1,78 @@
+"Question 1: Which products have the highest net quantity?
+
+Finding: PACK OF 12 RED RETROSPOT TISSUES (StockCode 21980) ranks first, with a net quantity of 14,609.
+
+Business insight: The product with the highest net quantity is not the highest-revenue product among the top 10. JUMBO BAG RED RETROSPOT generates the highest revenue in this group. Therefore, quantity alone does not indicate which products contribute the most revenue.
+
+Next step: Analyse the top 10 products by revenue to identify the products generating the greatest sales value."
+
+"Which products generate the highest revenue overall?	REGENCY CAKESTAND 3 TIER (StockCode 22423) ranks first, with revenue of 16,008.94.The overall ranking includes postage-related entries such as DOTCOM POSTAGE and POSTAGE, so it does not represent merchandise revenue alone.	Exclude DOT and POST to calculate the top 10 merchandise products by revenue.
+Which merchandise products generate the highest revenue?	REGENCY CAKESTAND 3 TIER (StockCode 22423) ranks first, with revenue of 16,008.94.	JUMBO BAG RED RETROSPOT ranks third by merchandise revenue at 7,415.36 and also appears in the top 10 by quantity. This product performs strongly across both measures.	Identify the 10 products with the lowest net quantities and investigate negative quantities separately."
+
+
+"Question      
+Which products have the lowest net quantities?        
+Finding : PIECE OF CAMO STATIONERY SET (StockCode 16259) has the lowest net quantity at -2,843, followed by ARMY CAMO WRAPPING TAPE (StockCode 10123G) at -1,104.        
+Insight : All 10 products in the bottom-quantity ranking have negative net quantities. This indicates that negative quantities exceed positive quantities for these products in the dataset, but the figures alone do not confirm whether returns, cancellations, or other adjustments caused the pattern.        
+Next Step : Investigate negative-quantity transactions for these products to understand whether returns or cancellations explain their negative net quantities."
+
+
+"**Question:**
+- Which products have negative net quantities?
+
+**Finding:**
+- PIECE OF CAMO STATIONERY SET (StockCode 16259) has the lowest net quantity at **-2,843**.
+- ARMY CAMO WRAPPING TAPE (StockCode 10123G) ranks second at **-1,104**.
+- MINI CAKE STAND WITH HANGING CAKES (StockCode 37446) ranks third at **-631**.
+
+**Insight:**
+- Negative net quantity means the total negative quantity exceeds the total positive quantity for that product.
+- Returns, cancellations, or other adjustments may contribute to negative quantities.
+- The aggregated product data alone does not confirm the exact cause.
+
+**Next Step:**
+- Inspect the underlying transactions for the products with the most negative net quantities.
+- Compare positive and negative quantities to investigate whether returns, cancellations, or other adjustments explain the results."
+
+"**Question:**
+- Why does PIECE OF CAMO STATIONERY SET (StockCode 16259) have a negative net quantity?
+
+**Finding:**
+- The product's net quantity is -2,843.
+- Invoice 565304 contains a quantity of -3,167, a zero price, a blank Customer ID, and zero revenue.
+- The same transaction exists in the original `online_retail` sheet.
+- No other rows for invoice 565304 exist in `cleaned_data`.
+
+**Insight:**
+- The large negative quantity is present in the original source data, not introduced by the cleaning process.
+- Its business meaning remains unverified. The available data does not establish whether it represents a return, cancellation, or another adjustment.
+
+**Next Step:**
+- Retain the transaction for now.
+- Document it as an unresolved source-data anomaly.
+- Continue the product analysis without removing the row solely because its quantity is negative."
+
+
+"Question: Which products perform strongly in both quantity and revenue?
+Finding
+- JUMBO BAG RED RETROSPOT (StockCode 85099B) appears in both the top 10 by net quantity and the top 10 by merchandise revenue.
+- Its net quantity is 3,917.
+- Its revenue is 7,415.36.
+Insight
+- This product performs strongly across both quantity and revenue rankings in your dataset.
+- Comparing both metrics helps identify products that sell in high quantities and also generate substantial revenue.
+Next Step
+- Compare the top 10 quantity and revenue rankings to identify any other products appearing in both lists."
+
+
+"**Question:**
+- Which products generate the highest profit?
+
+**Finding:**
+- Product-level revenue has been calculated, but verified product cost data is not available in the current dataset.
+
+**Insight:**
+- Revenue is not the same as profit. Profit requires reliable cost information, so the current dataset is insufficient to rank products by profit.
+
+**Next Step:**
+- Continue analysing revenue and quantity, or obtain reliable product cost data before performing profitability analysis."
