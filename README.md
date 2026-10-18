@@ -4,6 +4,21 @@
 
 This project analyses a 50,000-row working sample of the Online Retail II dataset using Google Sheets. The objective is to clean transaction data, validate data quality, analyse product performance, and document business insights.
 
+## Dataset Source and Licence
+
+This project uses a 50,000-row working sample of the Online Retail II dataset.
+
+- **Dataset:** Online Retail II
+- **Author:** Daqing Chen
+- **Source:** UCI Machine Learning Repository
+- **Year:** 2019
+- **DOI:** https://doi.org/10.24432/C5CG6D
+- **Licence:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+The dataset is used for educational and analytical purposes. The raw sample and cleaned dataset are derived from the original dataset. Appropriate attribution is provided to the original creator and source.
+
+This attribution applies to the source dataset, not automatically to all original analysis and documentation in this repository.
+
 ## Dataset Overview
 
 - **Working sample:** 50,000 rows before cleaning
