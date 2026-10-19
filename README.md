@@ -19,6 +19,18 @@ The dataset is used for educational and analytical purposes. The raw sample and 
 
 This attribution applies to the source dataset, not automatically to all original analysis and documentation in this repository.
 
+## Dataset Sampling: Reason and Limitations
+
+The original Online Retail II dataset contains **1,067,371 rows**. Due to processing and performance limitations in my working environment, I used a 50,000-row working sample for analysis using Google Sheets.
+
+### Limitations
+- The sample may not represent the complete dataset.
+- Product and sales trends may differ from the full dataset.
+- Findings apply only to the selected sample and cleaning process.
+
+### Future Improvement
+Repeat the analysis using the complete dataset with Python, Pandas, or a database.
+
 ## Dataset Overview
 
 - **Working sample:** 50,000 rows before cleaning
