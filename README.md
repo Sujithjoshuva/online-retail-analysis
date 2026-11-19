@@ -1,5 +1,26 @@
 # Online Retail II — Data Analysis
 
+## Business Problem
+
+The objective of this project is to analyse retail transaction data to understand product performance, sales trends, and monthly revenue patterns.
+
+The analysis aims to answer the following business questions:
+
+- Which products generate the highest sales quantity and revenue?
+- Which products have negative net quantities?
+- Which months record the highest and lowest revenue?
+- How does monthly sales quantity vary throughout the year?
+- What insights can support better inventory and sales planning?
+
+## Recommendations
+
+- **Inventory Planning:** Monitor high-quantity products to support stock availability and inventory planning.
+- **Product Performance:** Review top-performing products to understand their contribution to sales.
+- **Monthly Sales Monitoring:** Investigate revenue and quantity variations across months.
+- **Transaction Review:** Investigate unusual negative-quantity transactions to understand returns or cancellations.
+- **Further Analysis:** Include product cost data to evaluate profitability and support pricing decisions.
+- **Data Validation:** Validate findings using the complete dataset before making business decisions.
+
 ## Project Overview
 
 This project analyses a 50,000-row working sample of the Online Retail II dataset using Google Sheets. The objective is to clean transaction data, validate data quality, analyse product performance, and document business insights.
