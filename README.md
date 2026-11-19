@@ -1,5 +1,9 @@
 # Online Retail II — Data Analysis
 
+## Project Overview
+
+This project analyses a 50,000-row working sample of the Online Retail II dataset using Google Sheets. The objective is to clean transaction data, validate data quality, analyse product performance, and document business insights.
+
 ## Business Problem
 
 The objective of this project is to analyse retail transaction data to understand product performance, sales trends, and monthly revenue patterns.
@@ -21,9 +25,6 @@ The analysis aims to answer the following business questions:
 - **Further Analysis:** Include product cost data to evaluate profitability and support pricing decisions.
 - **Data Validation:** Validate findings using the complete dataset before making business decisions.
 
-## Project Overview
-
-This project analyses a 50,000-row working sample of the Online Retail II dataset using Google Sheets. The objective is to clean transaction data, validate data quality, analyse product performance, and document business insights.
 
 ## Dataset Source and Licence
 
