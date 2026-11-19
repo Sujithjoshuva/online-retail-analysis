@@ -85,3 +85,22 @@ The cleaning workflow included:
 ## Current Status
 
 Product quantity and revenue analyses have been completed and documented. Further monthly revenue analysis is planned.
+
+## Key Insights
+
+### Product Analysis
+- **Highest net quantity:** PACK OF 12 RED RETROSPOT TISSUES — 14,609 units.
+- **Highest merchandise revenue:** REGENCY CAKESTAND 3 TIER — 16,008.94.
+- **Common product in top 10 quantity and revenue:** JUMBO BAG RED RETROSPOT — 3,917 units and 7,415.36 revenue.
+- Investigated unusual negative-quantity transactions and retained source-verified records.
+
+### Monthly Sales Analysis
+- **Highest monthly revenue:** November 2011 — 67,923.92.
+- **Lowest monthly revenue:** December 2011 — 20,946.77.
+- **Highest aggregated monthly revenue:** November — 134,862.36.
+- **Lowest aggregated monthly revenue:** February — 50,388.50.
+- **Highest aggregated monthly quantity:** November — 65,634 units.
+- **Lowest aggregated monthly quantity:** January — 29,561 units.
+
+### Analysis Limitations
+All findings are based on a 50,000-row working sample of the original 1,067,371-row dataset. Results may differ from the complete dataset.
