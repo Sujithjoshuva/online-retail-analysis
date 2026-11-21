@@ -126,14 +126,16 @@ Product quantity and revenue analyses have been completed and documented. Furthe
 
 ## Data Cleaning Impact
 
-- **Original working sample:** 50,000 rows
-- **Final cleaned dataset:** 49,821 rows
-- **Total rows removed:** 179
-- **Percentage of rows removed:** 0.358%
-- **Exact duplicate rows removed:** 74
-- **Final cleaned revenue:** 933,229.53
-
-Revenue change will be reported after comparing the original sample's revenue with the cleaned dataset's revenue.
+| Metric | Result |
+|---|---:|
+| Original rows | 50,000 |
+| Cleaned rows | 49,821 |
+| Rows removed | 179 |
+| Percentage removed | 0.358% |
+| Original revenue | 933,839.162 |
+| Cleaned revenue | 933,229.532 |
+| Revenue decrease | 609.630 |
+| Revenue decrease (%) | 0.0653% |
 
 ### Analysis Limitations
 All findings are based on a 50,000-row working sample of the original 1,067,371-row dataset. Results may differ from the complete dataset.
