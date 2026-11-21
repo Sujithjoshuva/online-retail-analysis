@@ -124,5 +124,16 @@ Product quantity and revenue analyses have been completed and documented. Furthe
 - **Highest aggregated monthly quantity:** November — 65,634 units.
 - **Lowest aggregated monthly quantity:** January — 29,561 units.
 
+## Data Cleaning Impact
+
+- **Original working sample:** 50,000 rows
+- **Final cleaned dataset:** 49,821 rows
+- **Total rows removed:** 179
+- **Percentage of rows removed:** 0.358%
+- **Exact duplicate rows removed:** 74
+- **Final cleaned revenue:** 933,229.53
+
+Revenue change will be reported after comparing the original sample's revenue with the cleaned dataset's revenue.
+
 ### Analysis Limitations
 All findings are based on a 50,000-row working sample of the original 1,067,371-row dataset. Results may differ from the complete dataset.
